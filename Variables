@@ -1,0 +1,16 @@
+class Variables
+  public static void main(String[] args){
+    //Declaring and giving value statically
+    int a=10;
+    float b=10f;
+    String s="Hii";
+    double d=100.0;
+    boolean b=true;
+
+  System.out.println(a);
+  System.out.println(b);
+  System.out.println(s);
+  System.out.println(d);
+  System.out.println(b);
+
+    
