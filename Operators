@@ -1,0 +1,57 @@
+//Arthematic Operators
+
+public class Arthimetic {
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter number 1");
+		int a=s.nextInt();
+		
+		System.out.println("Enter number 2");
+		int b=s.nextInt();
+		
+		System.out.println("Sum is :"+(a+b));
+		System.out.println("difference is :"+(a-b));
+		System.out.println("product is :"+(a*b));
+		System.out.println("remainder is :"+(a/b));
+		System.out.println("modular is :"+(a%b));
+	}
+}
+
+//Assignment operators
+
+public class Assignment {
+	public static void main(String[] args) {
+		int i,j=15;
+		i=j;
+		i+=5;
+		i=i+5;
+		i-=5;
+		i*=5;
+		i/=5;
+		i%=5;
+		System.out.println(i);
+	}
+}
+
+//Logical operators
+
+public class Logical {
+	public static void main(String[] args) {
+		if(getconnection() && openfile()) {
+			System.out.println(true);
+		}
+		else {
+			System.out.println(false);
+		}
+	}
+		
+		public static boolean getconnection() {
+			System.out.println("Connecting...");
+			return false;
+		}
+		public static boolean openfile() {
+			System.out.println("opening file...");
+			return true;
+		}
+	}
+
